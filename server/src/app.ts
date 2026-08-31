@@ -2,10 +2,18 @@ import express from "express";
 import authRoutes from "./routes/auth.routes";
 import roomRoutes from "./routes/room.routes";
 import dashboardRoutes from "./routes/dashboard.routes";
+import cors from "cors";
 
 const app = express();
 
 app.use(express.json());
+
+app.use(
+  cors({
+    origin: "http://localhost:5173",
+    credentials: true,
+  })
+);
 
 // Authentication routes
 app.use("/api/auth", authRoutes);
