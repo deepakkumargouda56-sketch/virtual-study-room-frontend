@@ -32,7 +32,16 @@ Virtual Study Room is a web application designed to provide a collaborative envi
 
 \- Responsive user interface
 
+## 📸 Screenshots
 
+### Login Page
+![Login Page](./screenshots/login.png)
+
+### Dashboard
+![Dashboard](./screenshots/dashboard.png)
+
+### Study Room Chat
+![Chat](./screenshots/chat.png)
 
 \## 🛠️ Tech Stack
 
